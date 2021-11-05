@@ -3,7 +3,7 @@ using CSV, Primes, DataFrames
 kappa=1.4;
 Q=[1 2 3];
 
-for a=1:1000
+for a=1:2000
     for b=a+1:100000
         c=a+b;
         X=factor(Vector,a*b*c);
